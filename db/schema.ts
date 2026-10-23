@@ -1,0 +1,3 @@
+import {sqliteTable,text,primaryKey} from 'drizzle-orm/sqlite-core';
+export const content=sqliteTable('content',{kind:text('kind').notNull(),id:text('id').notNull(),payload:text('payload').notNull(),status:text('status').notNull(),updatedAt:text('updated_at').notNull()},t=>[primaryKey({columns:[t.kind,t.id]})]);
+export const submissions=sqliteTable('submissions',{id:text('id').primaryKey(),name:text('name').notNull(),email:text('email').notNull(),title:text('title').notNull(),body:text('body').notNull(),fileKey:text('file_key'),fileName:text('file_name'),status:text('status').notNull(),createdAt:text('created_at').notNull()});

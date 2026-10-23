@@ -1,0 +1,1 @@
+import{n as e}from"./navigation-errors-vIqZc3R3.js";import"./navigation.react-server-D3tw4OJC.js";function t(){e(`/#biblioteca`)}export{t as default};

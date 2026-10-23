@@ -1,0 +1,1 @@
+import{t as e}from"./cms-xCKIwfvh.js";import{env as t}from"cloudflare:workers";var n=`force-dynamic`,r=n=>e(n,t),i=r,a=r,o=r;export{r as GET,o as PATCH,i as POST,a as PUT,n as dynamic};

@@ -1,0 +1,14 @@
+outputs/
+tooling/node_modules/
+
+node_modules/
+.sites-runtime/
+.wrangler/
+.vinext/
+.dev.vars*
+.env*
+cms-starter/
+next-env.d.ts
+*.tsbuildinfo
+
+!.env.example

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "34",
+    "slug": "pr-madson-marinho",
+    "name": "Madson Marinho",
+    "church": "Igrejas Reformadas em Maragogi-AL",
+    "photo": "assets/madson-pulpito-2026.jpg",
+    "source": "",
+    "bio": "\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<p>O pastor Madson Marinho é Bacharel em Divindade pelo Instituto João Calvino. Ministro da Palavra na Igreja Reformada de Maragogi-Al. Possui um canal no YouTube “Vida Cristã Diária”.</p>\t\t\t\t\t\t\t\t\n\t\t\t\t",
+    "count": 3,
+    "social": [
+      {
+        "url": "https://www.facebook.com/madson.marinho.5",
+        "label": "Facebook"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCo6kVdvi2KmMKm6jGsp_SKQ",
+        "label": "Youtube"
+      },
+      {
+        "url": "https://www.instagram.com/vida_crista_diaria/",
+        "label": "Instagram"
+      }
+    ]
+  }
+]

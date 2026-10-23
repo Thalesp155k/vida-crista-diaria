@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sermoes-reformados.chatpro133.chatgpt.site/sitemap.xml

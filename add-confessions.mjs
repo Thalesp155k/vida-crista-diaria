@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+let html=await fs.readFile('dist/index.html','utf8');
+if(html.includes('id="confessionalidade"'))throw new Error('Confessionalidade already added');
+const section=await fs.readFile('confessionalidade-section.html','utf8');
+html=html.replace('<a href="#catecismo">Catecismo</a>','<a href="#confessionalidade">Confessionalidade</a>');
+html=html.replace('<link rel="stylesheet" href="refinements.css">','<link rel="stylesheet" href="refinements.css"><link rel="stylesheet" href="confessions.css">');
+html=html.replace('<section class="about section"',section+'<section class="about section"');
+html=html.replace('Explorar o catecismo <span>↗</span></button></div></section>','Explorar o catecismo <span>↗</span></button><br><a class="confessional-cta" href="#confessionalidade">Conhecer os credos e as confissões →</a></div></section>');
+html=html.replace('<script src="authors.js"></script>','<script src="authors.js"></script><script src="confessions.js"></script>');
+await fs.writeFile('dist/index.html',html);
